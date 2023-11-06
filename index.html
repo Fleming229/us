@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Portfolio landing</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:image" content="" />
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+    </head>
+    <body>
+        <section id="main">
+            <img src="images/spotlight.jpg" class="background" alt="Image" />
+            <header>
+                <section class="wrapper">
+                    <h1 class="left">
+                        <a href="#"
+                            ><img src="images/logo.jpg" alt="Image"
+                        /></a>
+                 
+                    </nav>
+                </section>
+            </header>
+            <section class="spotlight">
+                <section class="wrapper">
+                    <div class="content">
+                        <h1>Heyy Best Friend</h1>
+                        <p>
+                            Here is something to remember about our never ending undying lovely friendship
+                        </p>
+                        <a href="#" class="button">Forever</a>
+                        <ul>
+                            <li>
+                                <a href="#"
+                                    ><img
+                                
+                                        alt="Images"
+                                /></a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    ><img  alt="Images"
+                                /></a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    ><img
+                                    
+                                        alt="Images"
+                                /></a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </section>
+        </section>
+        <!---(#main > header >section.spotlight)-->
+        <section id="skills">
+            <section class="wrapper">
+                <div class="top">
+                    <h2>You And Me</h2>
+                </div>
+                <div class="bottom">
+                    <div class="items1">
+                        <div class="left">
+                            <img  alt="Images" />
+                        </div>
+                        <div class="right">
+                            <h4>lysm</h4>
+                            <p>
+                               It's been an year that we are together now and i wanted to create something memorable for us 
+                               we had our ups and downs together,we both enjoy our time together and u means alot to me yk you are
+                               the best thing ever happened to me lysm
+                            </p>
+                        </div>
+                    </div>
+                    <div class="items2">
+                        <div class="left">
+                            <img   alt="Images" />
+                        </div>
+                        <div class="right">
+                            <h4>jessaa and Flemm</h4>
+                            <p>
+                                idk what to write in this u can tell me what to fill in this when i show you this i dont want to ruin the surprise early hehe 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="items3">
+                        <div class="left">
+                              
+                        </div>
+                        <div class="right">
+                            <h4>F♡J</h4>
+                            <p>
+                               #################### (space for ur words)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!---(#skills >section.wrapper)-->
+        <section id="works">
+            <section class="wrapper">
+                <div class="top">
+                    <h2>us♡</h2>
+                </div>
+                <div class="middle">
+                    <ul>
+                        <li><img src="images/project1.jpg" alt="Image" /></li>
+                        <li><img src="images/project2.jpg" alt="Image" /></li>
+                        <li><img src="images/project3.jpg" alt="Image" /></li>
+                        <li><img src="images/project4.jpg" alt="Image" /></li>
+                    </ul>
+                </div>
+                <div class="bottom">
+                    <a href="#" class="button">mwahh</a>
+                </div>
+            </section>
+        </section>
+        <!---(#works >section.wrapper)-->
+        <section id="project">
+            <section class="wrapper">
+                <div class="content">
+                    <h2>may our friendship last forever</h2>
+                    <audio id="music" controls>
+                        <source src="audio/stuck.mp3.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                
+                    <button id="playPauseButton">Play</button>
+                
+                    <script>
+                        var audio = document.getElementById("music");
+                        var playPauseButton = document.getElementById("playPauseButton");
+                
+                        playPauseButton.addEventListener("click", function() {
+                            if (audio.paused) {
+                                audio.play();
+                                playPauseButton.innerHTML = "Pause";
+                            } else {
+                                audio.pause();
+                                playPauseButton.innerHTML = "Play";
+                            }
+                        });
+                    </script>
+                    <ul>
+                        <li>
+                            <a href="#"
+                                ><img src="images/dribbble.svg" alt="Images"
+                            /></a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                ><img src="images/behance.svg" alt="Images"
+                            /></a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                ><img src="images/linkedin.svg" alt="Images"
+                            /></a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <img src="images/spotlight.svg" class="background" alt="Images" />
+        </section>
+        <!---(#projects >section.wrapper)-->
+    </body>
+</html>
